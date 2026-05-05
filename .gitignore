@@ -1,0 +1,40 @@
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Large provided files
+pub.pt
+priv.pt
+model.pt
+
+# Generated attack output and caches kept for faster reproduction:
+# submission.csv
+# aug_features.npz
+# ref_scores.npz
+# shadow_models/
+extra_features.npz
+runlogs/
+
+# Optional experiments not used for the submitted result
+extra_features.py
+
+# Report drafts / downloaded archives
+Assignment1-MembershipInference.pdf
+report.docx
+Template_for_ICLR_2025_Conference_Submission/
+Template_for_ICLR_2025_Conference_Submission.zip
+
+# Local secrets
+*.env
+config.bat
+node_modules
